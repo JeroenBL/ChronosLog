@@ -4,12 +4,12 @@ using System.Management.Automation;
 
 namespace ChronosLog.Cmdlets
 {
-    [Cmdlet(VerbsCommunications.Write, "SeriLogMessage")]
-    public class Write_SerilogMessage : PSCmdlet
+    [Cmdlet(VerbsCommunications.Write, "LogMessage")]
+    public class Write_LogMessage : PSCmdlet
     {
         private SeriLogInitializationService _seriLogInitializationService;
 
-        public Write_SerilogMessage()
+        public Write_LogMessage()
         {
             _seriLogInitializationService = new SeriLogInitializationService();
         }
