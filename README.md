@@ -33,9 +33,7 @@ PowerShell module to interact with SeriLog
 
 ## Release history
 
-### Version 1.0.0 (2021-09-16)
 
-- Initial release
 
 ## Contributing
 
